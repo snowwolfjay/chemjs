@@ -52,7 +52,7 @@ module.exports = {
             }
             oobj = dobj[id];
         } else {
-            return new Error('只能是原子序数或缩写')
+            return null
         }
         let obj = JSON.parse(JSON.stringify(oobj));
         let group = obj.g;
