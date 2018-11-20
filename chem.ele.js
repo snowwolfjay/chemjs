@@ -51,6 +51,9 @@ module.exports = {
                 id = ele.toUpperCase()
             }
             oobj = dobj[id];
+            if(!oobj){
+                return null
+            }
         } else {
             return null
         }
