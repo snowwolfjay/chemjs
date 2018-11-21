@@ -39,3 +39,7 @@ p.getAll(string): return array
 eg:
 
 p.getAll('錒系') =>[{...},{...}]
+
+<!-- 浏览器环境 -->
+引入js文件,全局变量为CHEM;
+例如CHEM.e(1) => object H 氢原子
